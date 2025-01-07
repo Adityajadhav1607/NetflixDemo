@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  color: red;
+  margin-left: 70px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+.box1 {
+  display: flex;
+  margin-left: 900px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.dropdown {
+}
+.signin {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+}
+.signin:hover {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+}
+.navbar {
+  display: flex;
+}
+.bodycontent {
+  display: inline-block;
+  margin-left: 450px;
+  margin-top: 150px;
+  color: white;
+  font-size: 30px;
+}
+.charges {
+  display: inline-block;
+  margin-left: 600px;
+  margin-top: 10px;
+  color: white;
+}
+body {
+  background-image: url("https://s.tmimgcdn.com/scr/800x500/195700/ava-stream-movies-amp-tv-shows-bootstrap-4-website-template_195753-2-original.png");
+  width: 1000px;
+  height: 2000px;
+  border: 1px solid;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: position -30% -10%;
+}
+.bodycontent2 {
+  display: inline-block;
+  margin-left: 520px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+.bodycontent3 {
+  display: flex;
+  margin-left: 545px;
+  display: inline;
+}
+.item1 {
+  display: inline-block;
+  margin-right: 20px;
+}
+.item2 {
+  display: inline-block;
+  background-color: red;
+  color: white;
+}
