@@ -79,6 +79,7 @@
 .faq{
     padding: 20px;
     box-sizing: border-box;
+    width: 100vw;
     border: 2px solid greenyellow;
 }
 .faq-box{
@@ -97,6 +98,7 @@
     margin-top: 30px;
     border: 2px solid red;
     text-align: center;
+    width: 100vw;
 }
 .end-section-text{
     margin-bottom: 20px;
@@ -113,6 +115,7 @@
 }
 .footer{
     padding: 20px;
+    width: 100vw;
 }
 .a{
     margin-bottom: 40px;
@@ -126,4 +129,7 @@
 .que{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.ri-add-line{
+  font-size: 30px;
 }
