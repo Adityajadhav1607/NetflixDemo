@@ -10,6 +10,19 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  background-image: linear-gradient(
+      45deg,
+      rgba(17, 17, 17, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg");
+}
+body{
+  background-color: rgb(16, 15, 15);
+  color: white;
+}
+.logo{
+  color: red;
 }
 .navbar {
   border: 2px solid red;
@@ -24,7 +37,7 @@
 }
 .home-text {
   border: 2px solid black;
-  width: 700px;
+  width: 800px;
   margin: auto;
   padding: 30px;
   text-align: center;
@@ -65,74 +78,77 @@
   box-sizing: border-box;
   width: 100vw;
 }
-.reasons-section{
-    display: flex;
-    justify-content: space-between;
+.reasons-section {
+  display: flex;
+  justify-content: space-between;
 }
 .reason-box {
   background-color: aqua;
-  height: 350px;    
+  height: 350px;
   width: 350px;
   border: 2px solid black;
   border-radius: 10%;
 }
-.faq{
-    padding: 50px;
-    box-sizing: border-box;
-    width: 100vw;
-    border: 2px solid greenyellow;
+.faq {
+  padding: 50px;
+  box-sizing: border-box;
+  width: 100vw;
+  border: 2px solid greenyellow;
 }
-.faq-box{
-    display: flex;
-    background-color: rgb(121, 107, 107);
-    justify-content: space-between;
-    margin-bottom: 10px;
-    height: 60px;
-    padding: 20px;
+.faq-box {
+  display: flex;
+  background-color: rgb(121, 107, 107);
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 60px;
+  padding: 20px;
 }
-.faq-text{
-    margin-bottom: 20px;
+.faq-text {
+  margin-bottom: 20px;
 }
-.end-section{
-    margin-top: 30px;
-    border: 2px solid red;
-    text-align: center;
-    width: 100vw;
+.end-section {
+  margin-top: 30px;
+  border: 2px solid red;
+  text-align: center;
+  width: 100vw;
+  color: white;
 }
-.end-section-text{
-    margin-bottom: 20px;
+.end-section-text {
+  margin-bottom: 20px;
 }
-.footer-1{
-    display: flex;
-    justify-content: space-between;
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
 }
-.footer-box{
-    border: 2px solid black;
-    height: 25s0px;
-    width: 300px;
-    padding-top: 30px;
+.footer-box {
+  border: 2px solid black;
+  height: 25s0px;
+  width: 300px;
+  padding-top: 30px;
+  
 }
-.footer{
-    padding: 50px;
-    width: 100vw;
+.footer {
+  padding: 50px;
+  width: 100vw;
+  
 }
-.a{
-    margin-bottom: 40px;
+.a {
+  margin-bottom: 40px;
 }
-.last{
-    margin-top: 30px;
+.last {
+  margin-top: 30px;
 }
-.netflix-india{
-    margin-top: 20px;
+.netflix-india {
+  margin-top: 20px;
 }
-.que{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.que {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.ri-add-line{
+.ri-add-line {
   font-size: 30px;
 }
-.faq-box-section{
+.faq-box-section {
   border: 2px solid purple;
   display: flex;
   flex-direction: column;
