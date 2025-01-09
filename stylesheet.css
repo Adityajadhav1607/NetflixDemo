@@ -1,77 +1,128 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-.logo {
-  color: red;
-  margin-left: 70px;
-  padding: 10px;
-  display: inline-block;
-  font-size: 20px;
-}
-.box1 {
-  display: flex;
-  margin-left: 900px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.dropdown {
-}
-.signin {
-  margin-left: 10px;
-  background-color: red;
-  color: white;
+.home {
   border: 2px solid black;
-}
-.signin:hover {
-  margin-left: 10px;
-  background-color: black;
-  color: white;
-  border: 2px solid red;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 .navbar {
+  border: 2px solid red;
   display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.bodycontent {
-  display: inline-block;
-  margin-left: 450px;
-  margin-top: 150px;
-  color: white;
-  font-size: 30px;
+.navbar-end {
+  display: flex;
+  gap: 20px;
 }
-.charges {
-  display: inline-block;
-  margin-left: 600px;
-  margin-top: 10px;
-  color: white;
+.home-text {
+  border: 2px solid black;
+  width: 700px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
 }
-body {
-  background-image: url("https://s.tmimgcdn.com/scr/800x500/195700/ava-stream-movies-amp-tv-shows-bootstrap-4-website-template_195753-2-original.png");
-  width: 1000px;
-  height: 2000px;
-  border: 1px solid;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background: position -30% -10%;
+.home-text1 {
+  margin-bottom: 10px;
 }
-.bodycontent2 {
-  display: inline-block;
-  margin-left: 520px;
-  margin-top: 30px;
+.home-text2 {
+  margin-top: 20px;
+}
+.trending {
   margin-bottom: 20px;
-  color: white;
 }
-.bodycontent3 {
+.trnd-button {
+  margin-bottom: 20px;
+}
+.trend-section {
+  padding: 20px;
+  border: 2px solid rgb(49, 207, 41);
+  width: 100vw;
+}
+.movies-section {
   display: flex;
-  margin-left: 545px;
-  display: inline;
+  overflow: auto;
+  scrollbar-width: thin;
+  gap: 30px;
 }
-.item1 {
-  display: inline-block;
-  margin-right: 20px;
+.movie-box {
+  background-color: blueviolet;
+  height: 350px;
+  width: 300px;
+  flex-shrink: 0;
 }
-.item2 {
-  display: inline-block;
-  background-color: red;
-  color: white;
+.more-reasons-section {
+  padding: 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 100vw;
+}
+.reasons-section{
+    display: flex;
+    justify-content: space-between;
+}
+.reason-box {
+  background-color: aqua;
+  height: 350px;    
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+.faq{
+    padding: 20px;
+    width: 100vh;
+}
+.faq-box{
+    display: flex;
+    background-color: rgb(121, 107, 107);
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 1300px;
+    padding: 20px;
+}
+.faq-text{
+    margin-bottom: 20px;
+}
+.end-section{
+    margin-top: 30px;
+    border: 2px solid red;
+    text-align: center;
+}
+.end-section-text{
+    margin-bottom: 20px;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box{
+    border: 2px solid black;
+    height: 25s0px;
+    width: 300px;
+    padding-top: 30px;
+}
+.footer{
+    padding: 20px;
+}
+.a{
+    margin-bottom: 40px;
+}
+.last{
+    margin-top: 30px;
+}
+.netflix-india{
+    margin-top: 20px;
+}
+.que{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
