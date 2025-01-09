@@ -78,7 +78,8 @@
 }
 .faq{
     padding: 20px;
-    width: 100vh;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
 }
 .faq-box{
     display: flex;
