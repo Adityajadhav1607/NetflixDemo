@@ -133,3 +133,8 @@
 .ri-add-line{
   font-size: 30px;
 }
+.faq-box-section{
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+}
