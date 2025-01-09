@@ -15,7 +15,7 @@
   border: 2px solid red;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 50px;
   box-sizing: border-box;
 }
 .navbar-end {
@@ -43,7 +43,7 @@
   margin-bottom: 20px;
 }
 .trend-section {
-  padding: 20px;
+  padding: 50px;
   border: 2px solid rgb(49, 207, 41);
   width: 100vw;
 }
@@ -60,7 +60,7 @@
   flex-shrink: 0;
 }
 .more-reasons-section {
-  padding: 20px;
+  padding: 50px;
   border: 2px solid black;
   box-sizing: border-box;
   width: 100vw;
@@ -77,7 +77,7 @@
   border-radius: 10%;
 }
 .faq{
-    padding: 20px;
+    padding: 50px;
     box-sizing: border-box;
     width: 100vw;
     border: 2px solid greenyellow;
@@ -88,7 +88,6 @@
     justify-content: space-between;
     margin-bottom: 10px;
     height: 60px;
-    width: 1300px;
     padding: 20px;
 }
 .faq-text{
@@ -114,7 +113,7 @@
     padding-top: 30px;
 }
 .footer{
-    padding: 20px;
+    padding: 50px;
     width: 100vw;
 }
 .a{
