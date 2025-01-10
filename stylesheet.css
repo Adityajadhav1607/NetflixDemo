@@ -223,6 +223,7 @@ body {
   justify-content: space-between;
   border: 2px solid red;
   box-sizing: border-box;
+  justify-content: space-evenly;
 }
 .reason-text{
   margin-bottom: 20px;
@@ -243,6 +244,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
+  
 }
 .faq {
   padding-inline: 150px;
