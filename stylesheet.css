@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .home {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -17,120 +17,293 @@
     ),
     url("https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg");
 }
-body{
-  background-color: rgb(16, 15, 15);
+body {
+  background-color: rgb(10, 10, 10);
   color: white;
 }
-.logo{
-  color: red;
+.logo {
+  height: 70px;
+  width: 160px;
 }
+
 .navbar {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
-  padding: 50px;
   box-sizing: border-box;
+  padding-inline: 150px;
+  padding-top: 20px;
 }
 .navbar-end {
   display: flex;
   gap: 20px;
 }
+.lang{
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 8px;
+}
+.sign-in{
+  background-color: red;
+  color: white;
+  height: 35px;
+  width: 80px;
+  border-radius: 8px;
+}
 .home-text {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 800px;
   margin: auto;
   padding: 30px;
   text-align: center;
   font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .home-text1 {
   margin-bottom: 10px;
+  font-size: 30px;
+}
+.home-text1-2 {
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 .home-text2 {
   margin-top: 20px;
 }
+.home-text3 {
+  margin-top: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.e-mail{
+  height: 40px;
+  width: 400px;
+  color: black;
+  background-image: linear-gradient(45deg,
+  rgba(147, 142, 142, 0.75),
+  rgba(0, 0, 0, 0.75));
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.e-mail:hover{
+  border: 2px solid rgb(33, 221, 33);
+}
+.get-started{
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: red;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.divider{
+  width: 100%;
+  height: 40px;
+  border-top:rgb(255, 50, 50) 4px solid ;
+  border-radius: 50%/24px 24px 0 0;
+  background-image: linear-gradient(to bottom, rgb(36, 12, 99) 1% ,  rgb(10,10,10));
+}
 .trending {
   margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
 }
 .trnd-button {
   margin-bottom: 20px;
+ 
+}
+#trnd-button1{
+  height: 35px;
+  width: 90px;
+  margin-right: 20px;
+  background-color: rgb(63, 58, 58);
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px;
 }
 .trend-section {
-  padding: 50px;
-  border: 2px solid rgb(49, 207, 41);
+  padding-inline: 150px;
+  padding-top: 50px;
+  /* border: 2px solid rgb(49, 207, 41); */
   width: 100vw;
 }
 .movies-section {
   display: flex;
   overflow: auto;
   scrollbar-width: thin;
-  gap: 30px;
+  gap: 50px;
+}
+.movie-no{
+  
 }
 .movie-box {
-  background-color: blueviolet;
-  height: 350px;
-  width: 300px;
+  height: 270px;
+  width: 200px;
   flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.gF--XR-CwFzNmC-zfsJD1QHaKu?w=182&h=264&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.movie-box1 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.VgrCo7BBdIs0PVMbuxToBwHaKe?w=182&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.movie-box2 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th?id=OIP.Wu1KqK10dOaQxQBnErsfqQHaK-&w=205&h=304&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2");
+}
+.movie-box3 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.VgrCo7BBdIs0PVMbuxToBwHaKe?w=182&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.movie-box4 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.VgrCo7BBdIs0PVMbuxToBwHaKe?w=182&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.movie-box5 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.VgrCo7BBdIs0PVMbuxToBwHaKe?w=182&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.movie-box6 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.VgrCo7BBdIs0PVMbuxToBwHaKe?w=182&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.movie-box7 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.VgrCo7BBdIs0PVMbuxToBwHaKe?w=182&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+}
+.movie-box8 {
+  height: 270px;
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.VgrCo7BBdIs0PVMbuxToBwHaKe?w=182&h=257&c=7&r=0&o=5&dpr=1.3&pid=1.7");
 }
 .more-reasons-section {
-  padding: 50px;
-  border: 2px solid black;
+  padding-inline: 150px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  /* border: 2px solid rgb(222, 18, 18); */
   box-sizing: border-box;
   width: 100vw;
 }
 .reasons-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;s
+}
+.reason-text{
+  margin-bottom: 20px;
+}
+.reason-heading{
+  margin-bottom: 20px;
+}
+.reason-desc{
+  color: rgb(232, 225, 225);
 }
 .reason-box {
-  background-color: aqua;
-  height: 350px;
-  width: 350px;
-  border: 2px solid black;
+  background-image: linear-gradient(to bottom, rgb(66, 53, 96) 1% ,  rgb(53, 21, 96),rgb(82, 44, 44));
+  height: 330px;
+  width: 320px;
+  /* border: 2px solid black; */
   border-radius: 10%;
+  padding: 15px;
 }
 .faq {
-  padding: 50px;
+  padding-inline: 150px;
   box-sizing: border-box;
   width: 100vw;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
 }
 .faq-box {
   display: flex;
-  background-color: rgb(121, 107, 107);
+  background-color:rgb(59, 57, 57);
   justify-content: space-between;
   margin-bottom: 10px;
   height: 60px;
   padding: 20px;
 }
+.faq-box:hover{
+  background-color:rgb(93, 87, 87);
+}
 .faq-text {
   margin-bottom: 20px;
 }
+.faq-box-section {
+  /* border: 2px solid purple; */
+  display: flex;
+  flex-direction: column;
+}
+
 .end-section {
-  margin-top: 30px;
-  border: 2px solid red;
+  margin-top: 100px;
+  /* border: 2px solid red; */
   text-align: center;
   width: 100vw;
   color: white;
 }
 .end-section-text {
   margin-bottom: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.end-section-button-email{
+  height: 50px;
+  width: 600px;
+  color: black;
+  background-image: linear-gradient(45deg,
+  rgba(147, 142, 142, 0.75),
+  rgba(0, 0, 0, 0.75));
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.end-section-button-email:hover{
+  border: 2px solid rgb(33, 221, 33);
+}
+.end-section-button-get-started{
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: red;
+  font-size: 15px;
+  border-radius: 5px;
 }
 .footer-1 {
   display: flex;
   justify-content: space-between;
 }
 .footer-box {
-  border: 2px solid black;
+  /* border: 2px solid rgb(59, 220, 78); */
   height: 25s0px;
   width: 300px;
   padding-top: 30px;
-  
 }
 .footer {
-  padding: 50px;
+  padding: 150px;
   width: 100vw;
-  
 }
 .a {
   margin-bottom: 40px;
@@ -140,6 +313,8 @@ body{
 }
 .netflix-india {
   margin-top: 20px;
+  color: rgb(116, 113, 113);
+  font-size: 20px;
 }
 .que {
   margin-top: 20px;
@@ -148,8 +323,13 @@ body{
 .ri-add-line {
   font-size: 30px;
 }
-.faq-box-section {
-  border: 2px solid purple;
-  display: flex;
-  flex-direction: column;
+.ri-translate-2{
+  color: white;
+}
+#lang2{
+  background-color: rgb(39, 38, 38);
+  color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 8px;
 }
