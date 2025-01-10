@@ -136,8 +136,14 @@ body {
   overflow: auto;
   scrollbar-width: thin;
   gap: 50px;
+  /* border: 2px solid greenyellow; */
 }
 .movie-no{
+  -webkit-text-stroke: 0.10rem rgb(255, 252, 252);
+  color: black;
+  font-size: 100px;
+  margin-top: 150px;
+  margin-left: -20px;
   
 }
 .movie-box {
@@ -210,6 +216,9 @@ body {
   /* border: 2px solid rgb(222, 18, 18); */
   box-sizing: border-box;
   width: 100vw;
+}
+.more-reasons-section-2{
+  /* border: 2px solid rgb(222, 18, 18); */
 }
 .reasons-section {
   display: flex;
