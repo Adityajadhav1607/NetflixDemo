@@ -236,8 +236,7 @@ body {
 }
 .reason-box {
   background-image: linear-gradient(to bottom, rgb(66, 53, 96) 1% ,  rgb(53, 21, 96),rgb(82, 44, 44));
-  height: 330px;
-  width: 320px;
+ 
   /* border: 2px solid black; */
   border-radius: 10%;
   padding: 15px;
