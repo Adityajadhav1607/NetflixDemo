@@ -137,6 +137,7 @@ body {
   scrollbar-width: thin;
   gap: 50px;
   /* border: 2px solid greenyellow; */
+  padding: 20px;
 }
 .movie-no{
   -webkit-text-stroke: 0.10rem rgb(255, 252, 252);
@@ -217,9 +218,6 @@ body {
   box-sizing: border-box;
   width: 100vw;
 }
-.more-reasons-section-2{
-  /* border: 2px solid rgb(222, 18, 18); */
-}
 .reasons-section {
   display: flex;
   justify-content: space-between;s
@@ -229,9 +227,10 @@ body {
 }
 .reason-heading{
   margin-bottom: 20px;
+  /* border: 2px solid red; */
 }
 .reason-desc{
-  color: rgb(232, 225, 225);
+  color: rgb(226, 218, 218);
 }
 .reason-box {
   background-image: linear-gradient(to bottom, rgb(66, 53, 96) 1% ,  rgb(53, 21, 96),rgb(82, 44, 44));
@@ -240,6 +239,9 @@ body {
   /* border: 2px solid black; */
   border-radius: 10%;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 .faq {
   padding-inline: 150px;
