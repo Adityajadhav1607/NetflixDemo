@@ -222,7 +222,7 @@ body {
 }
 .reasons-section {
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   justify-content: space-evenly;
   gap:35px;
   width: 100%;
